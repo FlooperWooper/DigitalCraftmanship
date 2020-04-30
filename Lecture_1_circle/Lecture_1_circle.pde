@@ -4,7 +4,7 @@ void setup(){
   noLoop();
   beginRecord(PDF, "CIRCLE" + ".PDF");
   size(400, 400);
-  stroke(0, 125, 255);
+  stroke(125, 255, 125);
   strokeWeight(4);
   background(255);
 }
@@ -18,7 +18,7 @@ void draw() {
 
 void circle (float xc, float yc){
   float a = 100;
-  int steps = 50;
+  int steps = 100;
   float dt = TWO_PI / steps;
   
   for (int i=0; i<steps; i++){
